@@ -7,9 +7,9 @@
 # multiplicación
 
 print ("Ingrese primer digito:")
-a = int(input())
+a = float(input())
 print ("Ingrese segundo digito:")
-b = int(input())
+b = float(input())
 sum = a + b
 res = a - b
 div = a // b

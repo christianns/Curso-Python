@@ -11,8 +11,8 @@
 
 # Opcion 2
 print ("Ingrese valor del producto:")
-valor_producto = int(input())
+valor_producto = float(input())
 IVA = valor_producto * 0.18
 valor_venta = valor_producto + IVA
-print ("El IVA es:",int(IVA))
-print ("El precio de venta es:", int(valor_venta))
+print ("El IVA es:",float(IVA))
+print ("El precio de venta es:", float(valor_venta))
