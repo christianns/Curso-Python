@@ -11,4 +11,4 @@ if n1 % 2 == 0:
     print ("El doble es", str(int(n1)) + " y es par.")
 else:
     n1 *= 3
-    print ("El digito", str(int(n1)) + " es impar.")
+    print ("El digito es", str(int(n1)) + " es impar.")
