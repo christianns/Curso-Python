@@ -15,26 +15,43 @@ while True:
     print ("Elija la categoria: ")
     print ("1 - Terror")
     print ("2 - Acción")
-    print ("3 - Aventura")
+    print ("3 - Infantil")
+    print ("4 - Salir")
     opcion = int(input("Ingrese la opcion:"))
     if opcion == 1:
         edad = int(input("Ingrese su edad:"))
         if  edad >= 18 and edad <= 55:
+            print ("====================")
             print ("Disfrute su pelicula")
+            print ("====================\n\n")
         else:
+            print ("============================================")
             print ("No tiene permitido acceder a ver la pelicula")
+            print ("============================================\n\n")
+
     elif opcion == 2:
         edad = int(input("Ingrese su edad:"))
         if edad >= 10:
+            print ("====================")
             print ("Disfrute su pelicula")
+            print ("====================\n\n")
         else:
+            print ("============================================")
             print ("No tiene permitido acceder a ver la pelicula")
+            print ("============================================\n\n")
     elif opcion == 3:
         edad = int(input("Ingrese su edad:"))
         if edad >= 4:
+            print ("====================")
             print ("Disfrute su pelicula")
+            print ("====================\n\n")
         else:
+            print ("============================================")
             print ("No tiene permitido acceder a ver la pelicula")
+            print ("============================================\n\n")
+    elif opcion == 4:
+        print ("Grcias por visitarnos")
+        break
     else:
         print ("Opcion no valida")
         print ("Intentelo nuevamente")

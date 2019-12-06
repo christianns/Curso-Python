@@ -19,6 +19,7 @@ while True:
             c+=1
     elif opcion == 2:
         print ("Terminando programa \n")
+
         break
     else:
         print ("Opcion incorrecta \n")

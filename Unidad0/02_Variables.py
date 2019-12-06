@@ -10,3 +10,7 @@ print (a)
 print (nombre)
 # La coma (,) indica que e imprimira a continuacion de que se requiere imprimir
 print (nombre_apellido, type(nombre_apellido))
+
+# \t agrega una tabulación
+print ('nombre:', nombre_apellido)
+print ('nombre:\t', nombre_apellido)

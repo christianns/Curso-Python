@@ -1,0 +1,5 @@
+Entrada y Salida
+
+Entrada: Formas de capturar datos o información desde el exterior
+
+Salida: Formas de presentar los datos o información al exterior
