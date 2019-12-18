@@ -2,7 +2,7 @@
 # La variable del tipo float debe ser definida con un punto(.)
 a = 1
 b = 3.1415
-c = 3,14
+c = 3,14 # tupla
 
 print (a, type(a))
 print (b, type(b))
