@@ -1,4 +1,8 @@
-# Los conjuntos es un almacenador de datos "desodenado"
+# CONJUNTOS
+# Los conjuntos es un almacenador de datos "desodenado".
+# Son colecciones desordenadas de elementos únicos utilizados para hacer
+# pruebas de pertenencia a grupos y eliminación de elementos duplicados.
+
 
 # Conjunto vacio
 conjunto = set ()

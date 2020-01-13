@@ -5,6 +5,3 @@ OPERADOR [OPERANDO] OPERADOR --> Expresión
          [ + - * / ]
 ejemplo;
 10 + 5
-
-:tada:
-Este es el link de pligin markdown [link] (https://atom.io/packages/markdown-previewx)

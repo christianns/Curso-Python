@@ -1,4 +1,9 @@
-# Funciones integradas
+'''
+Funciones integradas
+
+La librería estándar de Python incluye muchas funciones.
+Las hay para hacer conversiones entre tipos, matemáticas, utilidades...
+'''
 
 # Funcion int()
 n = int('10')
@@ -36,5 +41,10 @@ print (eval('2 + 5'))
 
 n = 10
 print (eval('n * 10 - 5'))
+
+# len(), longitud de una colección o cadena:
+print(len("Una cadena"))
+print(len([]))
+
 
 help() # Ayuda

@@ -50,7 +50,7 @@ while True:
             print ("No tiene permitido acceder a ver la pelicula")
             print ("============================================\n\n")
     elif opcion == 4:
-        print ("Grcias por visitarnos")
+        print ("Grcias por visitarnos\n")
         break
     else:
         print ("Opcion no valida")

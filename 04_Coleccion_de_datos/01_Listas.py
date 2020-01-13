@@ -53,7 +53,8 @@ print (pares)
 pares.reverse()
 print (pares)
 
- # Y una peculiaridad es que también aceptan asignación con slicing para modificar varios ítems en conjunto.
+# SLICING
+# Y una peculiaridad es que también aceptan asignación con slicing para modificar varios ítems en conjunto.
 
 letras = ['a','b','c','d','e','f']
 print (letras[:3])
