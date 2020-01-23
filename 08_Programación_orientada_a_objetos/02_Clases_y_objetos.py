@@ -25,14 +25,18 @@ print(type(numero)) # <class 'int'>
 # en realidad es una instancia del tipo int, una clase muy básica de dato para almacenar números enteros.
 
 # Como curiosidad, incluso las funciones en Python son instancias del tipo function:
+
 def hola():
     pass
 
 type(hola)
 print (type(hola)) # <class 'function'>
 
+
 # Definición de clase
+
 # La sintaxis es muy sencilla:
+
 class Galleta:
     pass
 
@@ -40,6 +44,7 @@ class Galleta:
 # Luego añadiremos más información, por ahora veamos como crear galletas con este molde.
 
 # Instancias de clase
+
 # Para entender bien los objetos debemos tener claras dos cuestiones fundamentales:
 # ¿Cuándo y dónde existen los objetos?
 # Puede parecer trivial, pero es importante tener claro que los objetos "existen" sólo durante la
@@ -75,3 +80,5 @@ print(una_galleta.__class__)  # <class '__main__.Galleta'>
 print(Galleta.__name__)               # Galleta
 print(type(una_galleta).__name__)     # Galleta
 print(una_galleta.__class__.__name__) # Galleta
+
+#  Resumiendo: los objetos son instancias de una clase.
